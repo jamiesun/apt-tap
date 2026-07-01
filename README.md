@@ -24,7 +24,9 @@ sudo apt install scoot-edge
 
 | Package | Source project |
 | --- | --- |
-| `scoot-edge` | [jamiesun/scoot](https://github.com/jamiesun/scoot) — optional fleet-agent companion for the scoot AI agent daemon |
+| `scoot` | [jamiesun/scoot](https://github.com/jamiesun/scoot) — lightweight, local-first, auditable AI agent daemon and CLI |
+| `scoot-wasm` | [jamiesun/scoot](https://github.com/jamiesun/scoot) — optional standalone Wasm compute-unit host for scoot (depends on `scoot`) |
+| `scoot-edge` | [jamiesun/scoot](https://github.com/jamiesun/scoot) — optional fleet-agent companion for the scoot AI agent daemon (depends on `scoot`) |
 
 ## How this repository works
 
